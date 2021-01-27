@@ -13,4 +13,4 @@ GH_REPO=nataliavr/test.git
 #export VERSION_TYPE=$PLUGIN_VERSION_TYPE
 VERSION_TYPE=patch
 
-release-it --no-npm.publish $VERSION_TYPE --github.release --no-git.requireUpstream --ci
+npx release-it --no-npm.publish $VERSION_TYPE --github.release --no-git.requireUpstream --ci
